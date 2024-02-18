@@ -24,7 +24,7 @@
     margin-right: 0.5%;
     margin-top: -0.5%;
     font-size: 2em;
-    word-spacing: 100px;
+    word-spacing: 6.25rem;
 }
 .PestañasPalabras {
     color:#092635;
@@ -191,7 +191,7 @@
     bottom: -249.5%;
     left: 32%;
     width: 50rem;
-    height: 50rem;
+    height: 34.4rem;
     position: absolute;
 }
 .InformacionJoaco {
