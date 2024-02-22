@@ -1,0 +1,347 @@
+body {
+    background-color: #092635;
+}
+@media (max-width:480px) {
+    .container {  display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 10% 60% 20%;
+    }
+    .Pestañas {
+        grid-area: 1 / 1 / 1 / 4;
+        background-color: rgb(158, 200, 185, 90%);
+        background-size: 100% 100%;
+        position: fixed;
+        word-spacing: 1rem;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        z-index: 1;
+    }
+    .PestañasPalabras {
+        color: #092635;
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    .PestañasPalabras:hover {
+        color:#1B4242;
+        text-shadow: 0px 0px 10px #9290C3, 0px 0px 20px #535C91,  0px 0px 30px #1B1A55, 0px 0px 40px #070F2B;
+    }
+    .formulario {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .nombre{
+        margin-left: 10%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 1.5rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Nombre {
+        margin-left: 10%;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+        color: #9EC8B9;
+        display: block;
+        position: relative;
+        width: 15rem;
+        height: 1rem;
+        animation: sacudida 2s 2;
+        transition: box-shadow 3s ease;
+    }
+    @keyframes sacudida {
+        0%{
+            rotate: 0deg;
+        }
+        50%{
+            rotate: 2deg;
+        }
+        75%{
+            rotate: -2deg;
+        }
+        100%{
+            rotate: 0deg;
+        }
+    }
+    #datoNombre.Lleno {
+        box-shadow: 10px 10px 10px rgb(27, 66, 66, 40%) ,20px 20px 20px rgb(158, 200, 185, 40%);
+    }
+    .email {
+        margin-left: 10%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 1.5rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Email {
+        margin-left: 10%;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+        color: #9EC8B9;
+        display: block;
+        position: relative;
+        width: 15rem;
+        height: 1rem;
+        animation: sacudida 2s 2;
+        transition: box-shadow 3s ease;
+    }
+    #datoEmail.Lleno {
+        box-shadow: 10px 10px 10px rgb(27, 66, 66, 40%) ,20px 20px 20px rgb(158, 200, 185, 40%);
+    }
+    .consulta {
+        margin-left: 10%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 1.5rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Consulta {
+        margin-left: 10%;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1rem;
+        color: #9EC8B9;
+        display: block;
+        position: relative;
+        width: 15rem;
+        height: 10rem;
+        animation: sacudida 2s 2;
+    }
+    .Enviar {
+        padding-bottom: 0.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        left: 20%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 1.5rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Enviar:hover {
+        background-color: #9EC8B9;
+        border-color: #1B4242;
+        color: #1B4242;
+    
+    }
+    .Borrar {
+        padding-bottom: 0.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        left: 30%;
+        margin-bottom: 5%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 1.5rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Borrar:hover {
+        background-color: #9EC8B9;
+        border-color: #1B4242;
+        color: #1B4242;
+    
+    }
+}
+@media (min-width: 991px) {
+    .container {  display: grid;
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 10% 60% 20%;
+    }
+    .Pestañas {
+        grid-area: 1 / 1 / 1 / 4;
+        background-color: rgb(158, 200, 185, 90%);
+        background-size: 100% 100%;
+        position: fixed;
+        word-spacing: 3rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 25.9rem;
+        padding-right: 25.9rem;
+        z-index: 1;
+    }
+    .PestañasPalabras {
+        color: #092635;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+    .PestañasPalabras:hover {
+        color:#1B4242;
+        text-shadow: 0px 0px 10px #9290C3, 0px 0px 20px #535C91,  0px 0px 30px #1B1A55, 0px 0px 40px #070F2B;
+    }
+    .formulario {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .nombre{
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 2rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Nombre {
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.5rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #9EC8B9;
+        display: block;
+        position: relative;
+        width: 25rem;
+        height: 2rem;
+        animation: sacudida 2s 2;
+        transition: box-shadow 3s ease;
+    }
+    @keyframes sacudida {
+        0%{
+            rotate: 0deg;
+        }
+        50%{
+            rotate: 2deg;
+        }
+        75%{
+            rotate: -2deg;
+        }
+        100%{
+            rotate: 0deg;
+        }
+    }
+    #datoNombre.Lleno {
+        box-shadow: 10px 10px 10px rgb(27, 66, 66, 40%) ,20px 20px 20px rgb(158, 200, 185, 40%);
+    }
+    .email {
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 2rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Email {
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.5rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #9EC8B9;
+        display: block;
+        position: relative;
+        width: 25rem;
+        height: 2rem;
+        animation: sacudida 2s 2;
+        transition: box-shadow 3s ease;
+    }
+    #datoEmail.Lleno {
+        box-shadow: 10px 10px 10px rgb(27, 66, 66, 40%) ,20px 20px 20px rgb(158, 200, 185, 40%);
+    }
+    .consulta {
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 2rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Consulta {
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.5rem;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 1.5rem;
+        color: #9EC8B9;
+        display: block;
+        position: relative;
+        width: 25rem;
+        height: 10rem;
+        animation: sacudida 2s 2;
+    }
+    .Enviar {
+        padding-bottom: 0.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        left: 7%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 2rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Enviar:hover {
+        background-color: #9EC8B9;
+        border-color: #1B4242;
+        color: #1B4242;
+    
+    }
+    .Borrar {
+        padding-bottom: 0.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border-radius: 2rem;
+        border-style: solid;
+        border-width: 0.2rem;
+        background-color: #1B4242;
+        border-color: #9EC8B9;
+        left: 8%;
+        margin-bottom: 5%;
+        color: #9EC8B9;
+        font-family: 'Segoe UI';
+        font-size: 2rem;
+        display: inline-block;
+        position: relative;
+    }
+    .Borrar:hover {
+        background-color: #9EC8B9;
+        border-color: #1B4242;
+        color: #1B4242;
+    
+    }
+}

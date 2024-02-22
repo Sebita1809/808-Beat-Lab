@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">  
+    <link rel="Stylesheet" type="text/css" href="css/Constactenos.css">
+    <head>
+        <title> 808 BL Cotactos </title>
+        <body>
+            <div class="container">
+                <div class="Pestañas">
+                    <nav>
+                        <a class="PestañasPalabras" href="index.html">INICIO</a>
+                        <a class="PestañasPalabras" href="Muestras.html">MUESTRAS</a>
+                        <a class="PestañasPalabras" href="Informacion.html">INFORMACION</a>
+                        <a class="PestañasPalabras" href="Contactenos.html">CONTACTOS</a>
+                    </nav>
+                </div>
+                <div class="formulario">
+                    <form  action="https://formsubmit.co/808BeatLab.contact@gmail.com" method="post">
+                        <h4 class="nombre"> Nombre </h4>
+                        <input id="datoNombre" class="Nombre" type="text" value="" name="Nombre"> <br>
+                        <script src="js/InputConDato.js"></script> 
+                        <h4 class="email"> Email </h4>
+                        <input id="datoEmail" class="Email" type="email" value="" name="Email"> <br>
+                        <script src="js/EmailCorrecto.js"></script>
+                        <h4 class="consulta"> Consulta </h4>
+                        <textarea id="datoConosulta" class="Consulta" name="Consulta" placeholder="Ej: Como hago para grabar con ustedes?"></textarea> <br>
+                            <input class="Enviar" type="submit" value="Enviar" name="Enviar">
+                            <input class="Borrar" type="reset" value="Borrar" name="Borrar">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/index.html">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
