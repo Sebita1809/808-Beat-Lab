@@ -148,14 +148,11 @@
         margin-bottom: -20%;
     }
     .Titulo {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 1;
+        grid-area: 2 / 3 / 2 / 3;
         margin-top: -110%;
         margin-bottom: 90%;
         position: relative;
-        width: 30rem;
+        width: 90%;
         height: 5rem;
         text-align: center;
         font-size: 3rem;
