@@ -109,7 +109,7 @@
     }
     .UbicacionMapa {
         grid-area: 2 / 3 / 2 / 3;
-        margin-top: 80%;
+        margin-top: 75%;
         margin-bottom: 10%;
         left: 0%;
         position: relative;
@@ -149,14 +149,13 @@
     }
     .Titulo {
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 1;
-        left: 0%;
-        margin-top: -100%;
-        margin-bottom: 85%;
+        margin-top: -110%;
+        margin-bottom: 90%;
         position: relative;
-        width: 100%;
+        width: 120%;
         height: 5rem;
         text-align: center;
         font-size: 3rem;
