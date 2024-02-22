@@ -150,10 +150,9 @@
     .Titulo {
         grid-area: 2 / 3 / 2 / 3;
         margin-top: -110%;
-        margin-left: -20%;
         margin-bottom: 90%;
         position: relative;
-        width: 30rem;
+        width: 25rem;
         height: 5rem;
         text-align: center;
         font-size: 3rem;
