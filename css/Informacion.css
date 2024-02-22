@@ -154,6 +154,8 @@
         position: relative;
         width: 25rem;
         height: 5rem;
+        background-color: aqua;
+        display: block;
         text-align: center;
         font-size: 3rem;
         font-family: fantasy;
