@@ -152,7 +152,8 @@
         margin-top: -110%;
         margin-bottom: 90%;
         position: relative;
-        width: 100%;
+        background-color: white;
+        width: 20rem;
         height: 5rem;
         display: block;
         text-align: center;
