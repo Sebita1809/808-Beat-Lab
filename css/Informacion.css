@@ -148,14 +148,13 @@
         margin-bottom: -20%;
     }
     .Titulo {
-        grid-area: 2 / 3 / 2 / 3;
+        grid-area: 2 / 2 / 2 / 4;
         margin-top: -110%;
         margin-left: 3%;
-        margin-right: 3%
+        margin-right: 3%;
         margin-bottom: 90%;
         position: relative;
         height: 5rem;
-        background-color: aqua;
         display: block;
         text-align: center;
         font-size: 3rem;
