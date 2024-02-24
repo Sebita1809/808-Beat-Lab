@@ -341,7 +341,7 @@ body{
     }
     .container .img-container {
         width: 15rem;
-        height: 10rem;
+        height: 15rem;
         position: relative;
     }
     .container .img-container img {
@@ -364,14 +364,14 @@ body{
         display: inline;
     }
     .container .TiempoDuracion{
-        margin-left: 79%;
+        margin-left: 69%;
         margin-top: 0%;
         position: absolute;
         font-size: 1.5rem;
         display: inline-block;
     }
     .container .BarraProgreso{
-        margin-top: 10%;
+        margin-top: 20%;
         cursor: pointer;
         position: relative;
         background: white;
@@ -396,28 +396,28 @@ body{
         height: 7rem;
     }
     .container .Controles .Anterior{
-        margin-top: 10%;
+        margin-top: 20%;
         rotate: 180deg;
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
         margin-left: 13%;
     }
     .container .Controles .Play{
         margin-left: 10%;
         display: inline;
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
     }
     .container .Controles .Pausa{
         margin-left: 10%;
         display: none;
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
     } 
     .container .Controles .Siguiente{
         margin-left: 10%;
-        width: 5rem;
-        height: 5rem;
+        width: 3rem;
+        height: 3rem;
     }
 }
 
