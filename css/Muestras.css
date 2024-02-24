@@ -1,0 +1,299 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background: rgb(9, 38, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes Fondo {
+    0%{
+        background-position: 0% 67%;
+    }
+    50%{
+        background-position: 100% 34%;
+    }
+    100%{
+        background-position: 0% 67%;
+    }
+}
+.audioPrueba{
+    margin-top: 20%;
+    margin-left: -10%;
+    width: 20rem;
+    z-index: 1;
+}
+.Pestañas {
+    top: 1%;
+    background-color: rgb(158, 200, 185, 90%);
+    background-size: 100% 100%;
+    position: fixed;
+    word-spacing: 3rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 25.9rem;
+    padding-right: 25.9rem;
+    z-index: 1;
+}
+.PestañasPalabras {
+    color: #092635;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.PestañasPalabras:hover {
+    color:#1B4242;
+    text-shadow: 0px 0px 10px #9290C3, 0px 0px 20px #535C91,  0px 0px 30px #1B1A55, 0px 0px 40px #070F2B;
+}
+.container{
+    margin-top: 16%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    padding: 2rem;
+    width: 30rem;
+    height: 50rem;
+    animation: Fondo 10s ease infinite;
+}
+.container .img-container {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+}
+.container .img-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+.container h2{
+    text-align: center;
+}
+.container h3{
+    text-align: center;
+}
+.container .TiempoActual{
+    margin-left: 1%;
+    margin-top: 0%;
+    margin-right: 70%;
+    position: absolute;
+    font-size: 1.5rem;
+    display: inline;
+}
+.container .TiempoDuracion{
+    margin-left: 79%;
+    margin-top: 0%;
+    position: absolute;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.container .BarraProgreso{
+    margin-top: 10%;
+    cursor: pointer;
+    position: relative;
+    background: white;
+    border-radius: 2rem;
+    height: 2%;
+    width: 100%;
+}
+.container .BarraProgreso .Progreso{
+    position: absolute;
+    background: #0B666A;
+    border-radius: 3rem;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+}
+.container .Controles{
+    display: inline;
+    background-color: transparent;
+    border-style: none;
+    margin-left: 1%;
+    width: 7rem;
+    height: 7rem;
+}
+.container .Controles .Anterior{
+    margin-top: 10%;
+    rotate: 180deg;
+    width: 5rem;
+    height: 5rem;
+    margin-left: 13%;
+}
+.container .Controles .Play{
+    margin-left: 10%;
+    display: inline;
+    width: 5rem;
+    height: 5rem;
+}
+.container .Controles .Pausa{
+    margin-left: 10%;
+    display: none;
+    width: 5rem;
+    height: 5rem;
+} 
+.container .Controles .Siguiente{
+    margin-left: 10%;
+    width: 5rem;
+    height: 5rem;
+}
+.Barras {
+    position: absolute;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+}
+.Barras:nth-child(1){
+    margin-top: -5%;
+    margin-left: -85%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 20rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra1 2s ease infinite;
+}
+@keyframes barra1 {
+    0%{height: 5rem;}
+    50%{height: 15rem;}
+    100%{height: 5rem;} 
+}
+.Barras:nth-child(2){
+    margin-top: -5%;
+    margin-left: -80%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 10rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra2 2s ease infinite;
+}
+@keyframes barra2 {
+    0%{height: 10rem;}
+    50%{height: 5rem;}
+    100%{height: 10rem;} 
+}
+.Barras:nth-child(3){
+    margin-top: -5%;
+    margin-left: -75%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 15rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra3 2s ease infinite;
+}
+@keyframes barra3 {
+    0%{height: 17rem;}
+    50%{height: 10rem;}
+    100%{height: 17rem;} 
+}
+.Barras:nth-child(4){
+    margin-top: -5%;
+    margin-left: -70%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 5rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra4 2s ease infinite;
+}
+@keyframes barra4 {
+    0%{height: 3rem;}
+    50%{height: 20rem;}
+    100%{height: 3rem;} 
+}
+.Barras:nth-child(5){
+    margin-top: -5%;
+    margin-left: -65%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 13rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra5 2s ease infinite;
+}
+@keyframes barra5 {
+    0%{height: 10rem;}
+    50%{height: 5rem;}
+    100%{height: 10rem;} 
+}
+.Barras:nth-child(6){
+    margin-top: -5%;
+    margin-left: -60%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 5rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra6 2s ease infinite;
+}
+@keyframes barra6 {
+    0%{height: 2rem;}
+    50%{height: 14rem;}
+    100%{height: 2rem;} 
+}
+.Barras:nth-child(7){
+    margin-top: -5%;
+    margin-left: -55%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 17rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra7 2s ease infinite;
+}
+@keyframes barra7 {
+    0%{height: 17rem;}
+    50%{height: 8rem;}
+    100%{height: 17rem;} 
+}
+.Barras:nth-child(8){
+    margin-top: -5%;
+    margin-left: -50%;
+    background: linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    background-size: 600% 600%;
+    box-shadow: 0 8px 32px 0;
+    backdrop-filter: blur(4px);
+    border-radius: 2rem;
+    border: 1px solid linear-gradient(249deg, #12c2e9, #c471ed, #f64f59);
+    width: 2rem;
+    height: 20rem;
+    animation: Fondo 10s ease infinite;
+    animation: barra8 2s ease infinite;
+}
+@keyframes barra8 {
+    0%{height: 5rem;}
+    50%{height: 15rem;}
+    100%{height: 5rem;} 
+}
