@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" type="text/css" href="css/Muestras.css">
+        <title>Muestras</title>
+    </head>
+        <body>
+            <div class="Barras" style="--i:0"></div>
+            <div class="Barras" style="--i:2"></div>
+            <div class="Barras" style="--i:3"></div>
+            <div class="Barras" style="--i:4"></div>
+            <div class="Barras" style="--i:5"></div>
+            <div class="Barras" style="--i:6"></div>
+            <div class="Barras" style="--i:7"></div>
+            <div class="Barras" style="--i:8"></div>
+            <div id="Pestañas" class="Pestañas">
+                <nav>
+                <a class="PestañasPalabras" href="index.html">INICIO</a>
+                <a class="PestañasPalabras" href="Muestras.html">MUESTRAS</a>
+                <a class="PestañasPalabras" href="Informacion.html">INFORMACION</a>
+                <a class="PestañasPalabras" href="Contactenos.html">CONTACTOS</a>
+                </nav>
+                </div>
+            <div class="container">
+                <div class="img-container">
+                    <img src="css/Imagenes/PortadaBeats.png">
+                </div>
+                <h2 id="Titulo"> Titulo de la cancion </h2>
+                <h3 id="Artista"> Artista </h3>
+                <audio id="audio" src="css/Audios/RAGEMETALBEAT.wav" type="audio/wav"></audio>
+
+                <h6 class="TiempoActual" id="TiempoActual">0:00</h6>
+                <h6 class="TiempoDuracion" id="TiempoDuracion">0:00</h6>
+                <div class="BarraProgreso" id="BarraProgreso">
+                    <div class="Progreso" id="Progreso">
+                    <div class="Duracion" id="Duracion">
+                    </div>
+                    </div>
+                </div>
+                <div class="Controles">
+                    <img id="Anterior" class="Anterior" src="css/Imagenes/proximo.png">
+                    <img id="Play" onclick="cambiarPlay()" id="Play" class="Play" src="css/Imagenes/jugar.png">
+                    <img onclick="cambiarPausa()" id="Pausa" class="Pausa" src="css/Imagenes/pausa.png">
+                    <img id="Siguiente" class="Siguiente" src="css/Imagenes/proximo.png">
+                    <script src="js/CambiarPausa.js"></script>
+                    <script src="js/CambiarPlay.js"></script>
+                    <script src="js/Playlist.js"></script>
+                    <script src="js/MostrarDuracion.js"></script>
+                </div>
+            </div>
+            </div>
+        </body>
+    </html> 
