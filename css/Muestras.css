@@ -306,6 +306,7 @@ body{
         }
     }
     .Pestañas {
+        margin-top: -10%;
         background-color: rgb(158, 200, 185, 90%);
         background-size: 100% 100%;
         position: fixed;
