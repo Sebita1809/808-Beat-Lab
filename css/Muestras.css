@@ -306,7 +306,7 @@ body{
         }
     }
     .Pestañas {
-        margin-top: -100%;
+        margin-top: -150%;
         background-color: rgb(158, 200, 185, 90%);
         background-size: 100% 100%;
         position: fixed;
@@ -364,14 +364,14 @@ body{
         margin-top: 0%;
         margin-right: 70%;
         position: absolute;
-        font-size: 1.5rem;
+        font-size: 1rem;
         display: inline;
     }
     .container .TiempoDuracion{
-        margin-left: 6%;
+        margin-left: 60%;
         margin-top: 0%;
         position: absolute;
-        font-size: 1.5rem;
+        font-size: 1rem;
         display: inline-block;
     }
     .container .BarraProgreso{
@@ -404,7 +404,7 @@ body{
         rotate: 180deg;
         width: 4rem;
         height: 4rem;
-        margin-left: 13%;
+        margin-left: 2%;
     }
     .container .Controles .Play{
         margin-left: 10%;
