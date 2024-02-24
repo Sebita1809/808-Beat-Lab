@@ -313,7 +313,7 @@ body{
         margin-left: 1%;
         margin-right: 0%;
         word-spacing: 0.5rem;
-        padding-top: 1.5%;
+        padding-top: 1%;
         padding-bottom: 1.5%;
         width: 94.5%;
         text-align: center;
@@ -400,7 +400,7 @@ body{
         height: 7rem;
     }
     .container .Controles .Anterior{
-        margin-top: 20%;
+        margin-top: 25%;
         rotate: 180deg;
         width: 3rem;
         height: 3rem;
