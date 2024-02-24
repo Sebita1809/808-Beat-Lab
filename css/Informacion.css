@@ -149,7 +149,7 @@
     }
     .Titulo {
         grid-area: 2 / 2 / 2 / 2;
-        margin-top: -100%;
+        margin-top: -80%;
         margin-bottom: 80%;
         position: relative;
         width: 100%;
