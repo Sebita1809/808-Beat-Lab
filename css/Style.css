@@ -549,7 +549,7 @@
     } 
     .igJoaco {
         text-align: center;
-        padding-top: 0.5rem;
+        padding-top: 1rem;
         padding-right: 4rem;
         font-size: 0.5em;
         font-family: 'Trebuchet MS';
@@ -567,7 +567,7 @@
         text-align: center;
         position: relative;
         left: 23%;
-        margin-top: -8%;
+        margin-top: -5%;
         font-size: 0.5em;
         font-family: 'Trebuchet MS';
         display: block;
@@ -588,7 +588,7 @@
     .ImagenAlex {
         background-color: #F5E8C7;
         margin-top: 27.5%;
-        left: 55%;
+        left: 58%;
         width: 34%;
         height: 41%;
         border-radius: 100% 100%;
