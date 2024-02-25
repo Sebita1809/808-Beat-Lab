@@ -496,7 +496,7 @@
         border-top: #5C8374;
         padding-bottom: 2%;
         margin-top: 15%;
-        text-align: center;
+        text-align: left;
         font-family:'Gill Sans';
         font-size: 1em;
         color: #9EC8B9;
@@ -514,7 +514,7 @@
         border-top-left-radius: 50%;
         border-bottom-left-radius: 50%;
         background-color:#F5E8C7;
-        bottom: -5%;
+        bottom: 0%;
         left: 9%;
         width: 34%;
         height: 15%;
@@ -525,7 +525,7 @@
         background-color:#F5E8C7;
         border-top-right-radius: 30%;
         border-bottom-right-radius: 30%;
-        bottom: -5%;
+        bottom: 0%;
         left: 34%;
         width: 55%;
         height: 15%;
@@ -599,7 +599,7 @@
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
         background-color:#F5E8C7;
-        bottom: -40%;
+        bottom: -20%;
         right: 9%;
         width: 34%;
         height: 15%;
@@ -610,7 +610,7 @@
         background-color:#F5E8C7;
         border-top-left-radius: 30%;
         border-bottom-left-radius: 30%;
-        bottom: -40%;
+        bottom: -20%;
         right: 34%;
         width: 50%;
         height: 15%;
