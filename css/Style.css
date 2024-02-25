@@ -502,7 +502,7 @@
         color: #9EC8B9;
     }
     .ImagenJoaco {
-        margin-top: 10%;
+        margin-top: 15%;
         left: 9%;
         position: relative;
         width: 31%;
@@ -587,7 +587,7 @@
     }
     .ImagenAlex {
         background-color: #F5E8C7;
-        margin-top: 20%;
+        margin-top: 35%;
         left: 60%;
         width: 31%;
         height: 31%;
@@ -641,6 +641,7 @@
         font-family: 'Trebuchet MS';
         text-decoration: none;
         display: block;
+        color: #070F2B;
     }
     .IgAlex {
         bottom: 1%;
