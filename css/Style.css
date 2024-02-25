@@ -492,7 +492,7 @@
         margin-right: 10%;
         margin-left: 10%;
         border-style: solid;
-        border-width: 0.1rem;
+        border-width: 0.5rem;
         border-top: #5C8374;
         padding-bottom: 2%;
         margin-top: 15%;
@@ -514,7 +514,7 @@
         border-top-left-radius: 50%;
         border-bottom-left-radius: 50%;
         background-color:#F5E8C7;
-        bottom: 0%;
+        bottom: -20%;
         left: 9%;
         width: 34%;
         height: 20%;
@@ -525,7 +525,7 @@
         background-color:#F5E8C7;
         border-top-right-radius: 30%;
         border-bottom-right-radius: 30%;
-        bottom: 0%;
+        bottom: -20%;
         left: 34%;
         width: 55%;
         height: 20%;
@@ -599,7 +599,7 @@
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
         background-color:#F5E8C7;
-        bottom: -20%;
+        bottom: -60%;
         right: 9%;
         width: 34%;
         height: 20%;
@@ -610,7 +610,7 @@
         background-color:#F5E8C7;
         border-top-left-radius: 30%;
         border-bottom-left-radius: 30%;
-        bottom: -20%;
+        bottom: -60%;
         right: 34%;
         width: 50%;
         height: 20%;
