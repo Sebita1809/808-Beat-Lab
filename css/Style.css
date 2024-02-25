@@ -502,7 +502,7 @@
         color: #9EC8B9;
     }
     .ImagenJoaco {
-        margin-top: 7.6%;
+        margin-top: 10%;
         left: 9%;
         position: relative;
         width: 31%;
@@ -587,7 +587,7 @@
     }
     .ImagenAlex {
         background-color: #F5E8C7;
-        margin-top: 12.5%;
+        margin-top: 20%;
         left: 60%;
         width: 31%;
         height: 31%;
@@ -653,7 +653,7 @@
     footer {
         margin-right: 2.5%;
         margin-left: 3.5%;
-        margin-top: 10%;
+        margin-top: 30%;
         display: inline-block;
     }
     .Absolute {
