@@ -502,7 +502,7 @@
         color: #9EC8B9;
     }
     .ImagenJoaco {
-        margin-top: 19%;
+        margin-top: 22%;
         left: 10%;
         position: relative;
         width: 34%;
@@ -587,8 +587,8 @@
     }
     .ImagenAlex {
         background-color: #F5E8C7;
-        margin-top: 33%;
-        left: 60%;
+        margin-top: 32%;
+        left: 55%;
         width: 34%;
         height: 41%;
         border-radius: 100% 100%;
@@ -619,7 +619,7 @@
     }
     .InformacionAlex {
         padding-left: 0%;
-        padding-right: 15%;
+        padding-right: 18%;
         padding-bottom: 0%;
         font-size: 0.5em;
         font-family: 'Trebuchet MS';
@@ -628,7 +628,7 @@
     }
     .InformacionAlex2 {
         padding-left: 7%;
-        padding-right: 14%;
+        padding-right: 16%;
         font-size: 0.5em;
         font-family: 'Trebuchet MS';
         text-align: center;
