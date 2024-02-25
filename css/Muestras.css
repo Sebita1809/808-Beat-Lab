@@ -306,7 +306,7 @@ body{
         }
     }
     .Pestañas {
-        margin-top: -140%;
+        margin-top: -150%;
         background-color: rgb(158, 200, 185, 90%);
         background-size: 100% 100%;
         position: fixed;
@@ -368,7 +368,7 @@ body{
         display: inline;
     }
     .container .TiempoDuracion{
-        margin-left: 70%;
+        margin-left: 66%;
         margin-top: 0%;
         position: absolute;
         font-size: 1rem;
@@ -400,11 +400,11 @@ body{
         height: 7rem;
     }
     .container .Controles .Anterior{
-        margin-top: 20%;
+        margin-top: 15%;
         rotate: 180deg;
         width: 3rem;
         height: 3rem;
-        margin-left: 10%;
+        margin-left: 8%;
     }
     .container .Controles .Play{
         margin-left: 10%;
