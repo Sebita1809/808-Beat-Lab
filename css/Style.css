@@ -588,7 +588,7 @@
     .ImagenAlex {
         background-color: #F5E8C7;
         margin-top: 27.5%;
-        left: 58%;
+        left: 56%;
         width: 34%;
         height: 41%;
         border-radius: 100% 100%;
@@ -637,14 +637,14 @@
     .igAlex {
         margin-top: -11%;
         margin-left: 60%;
-        font-size: 0.3rem;
+        font-size: 0.5rem;
         font-family: 'Trebuchet MS';
         text-decoration: none;
         display: block;
         color: #070F2B;
     }
     .IgAlex {
-        bottom: 1%;
+        bottom: 0%;
         left: 53%;
         position: relative;
         width: 0.7rem;
